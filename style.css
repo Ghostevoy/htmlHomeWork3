@@ -27,16 +27,30 @@ body {
     box-sizing: border-box;
     scroll-behavior: smooth;
     background: #FFF;
+    display: flex;
+    justify-content: center;
+    
 }
 
 img {
     max-width: 100%;
+    height: auto;
     display: block;
 }
 
 .container {
-    max-width: 1920px;
+    
+    max-width: 1179px;
+    
+
 }
+
+header{
+    margin-top: 40px;
+}
+
+
+
 .main_menu_navigation {
 font-size: 14px;
 font-family: Gilroy-SemiBold;
@@ -53,17 +67,44 @@ a {
     color: #F25822;
     
 }
+.main_menu_home_orange {
+    color: #F25822;
+}
+
+.home {
+    display: flex;
+    justify-content: center;
+    margin-top: 86px;
+    min-width: 589px;
+}
+
+.home_info {
+    max-width: 50%;
+    min-width: 50%;
+}
 
 .Home_main_title {
     color: #000;
     font-size: 60px;
     font-family: Gilroy-Bold;
+    max-width: 522px;
+    max-height: 222;
+    
 }
 
 .Home_information {
     color: #888;
     font-size: 20px;
     font-family: Gilroy-Medium;
+    margin-top: 17px;
+    margin-bottom: 37px; 
+}
+
+.home_button {
+    max-width: 374px auto;
+    max-height: 94px;
+    display: flex;
+    
 }
 
 .home_button_start{
@@ -72,10 +113,13 @@ a {
     flex-shrink: 0;
     border-radius: 50px;
     background: #F25822;
+    cursor: pointer;
     box-shadow: 4px 4px 8px 0px rgba(242, 88, 34, 0.20);
+    padding: 10px 10px;
     color: #FFF;
     font-size: 15px;
     font-family: Gilroy-Bold;
+    margin-right: 37px;
 
 }
 
@@ -87,19 +131,34 @@ a {
     color: #AAA;
     font-size: 15px;
     font-family: Gilroy-Bold;
+    margin-left: 37px;
 }
 
-.brand img{
-    margin-left: 24px;
-    margin-right: 24px;
-    max-width: 160 auto;
-    max-height: 50 auto;
+.home_image_left {
+    
+    min-width: 589px;
 }
+
+
 
 .brand {
-    height: 243px;
-    max-width: 1920px auto;
+    max-height: 243px;
     padding-top: 97px;
     padding-bottom: 96px;
+    display: flex;
+    justify-content: center;
+    
+    
 }
+.brand img{
+    width: 160;
+    height: 50; 
+    align-self:flex-start;
+    margin-left: 24px;
+    margin-right: 24px;
+    }
 
+.main_menu {
+    display: flex;
+    justify-content: space-between;
+}
