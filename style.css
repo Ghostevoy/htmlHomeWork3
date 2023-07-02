@@ -192,6 +192,7 @@ margin-bottom: 25px;
 	padding-bottom: 25px;
 	padding-left: 29px;
 	flex-shrink: 0;
+	padding-top: 40px;
 
 }
 
@@ -202,11 +203,11 @@ margin-bottom: 25px;
 	box-shadow: 15px 25px 56px 6px rgba(0, 0, 0, 0.06);
 	padding-bottom: 25px;
 	padding-left: 29px;
+	padding-top: 40px;
 }
 
 
 .services	{
-background: #FAFAFA;
 display: flex;
 text-align: center;
 align-items: center;
@@ -217,7 +218,7 @@ padding-bottom: 100px;
 
 .services p {
 color: #666;
-font-size: 16px;
+font-size: 15px;
 font-family: Gilroy-Regular;
 font-style: normal;
 max-width: 682px;
@@ -245,6 +246,8 @@ margin-bottom: 19px;
 	background: #FFFFFF;
 	margin-left: 15px;
 	margin-right: 15px;
+	padding-left: 30px;
+	padding-right: 30px;
 }
 
 .services_sections h2 {
